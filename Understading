@@ -1,0 +1,11 @@
+Startinh with React
+
+We got two packages vite and Build
+
+Build is More comprehensive 
+
+Both used to run react as a library 
+We will deal with src folder of these packages to build Our react projects
+
+In both Packages, file name package.json 
+is used to run the tasks in script section
