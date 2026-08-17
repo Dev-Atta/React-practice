@@ -7,3 +7,14 @@ function App() {
 }
 
 export default App;
+
+
+
+// taking a function and returning
+//  a JSX element from it.
+
+// jsx is a syntax extension for javascript
+//  which allows us to write html in react.
+
+
+// Rendreing that App() function in index.js  

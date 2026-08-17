@@ -9,3 +9,9 @@ We will deal with src folder of these packages to build Our react projects
 
 In both Packages, file name package.json 
 is used to run the tasks in script section
+
+
+
+The index.html in /Public of 01basicreact is source of Our react App
+and it takes lead from App.js and 
+index.js(used To call react Libraries) lying in /src
