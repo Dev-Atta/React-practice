@@ -11,7 +11,24 @@ In both Packages, file name package.json
 is used to run the tasks in script section
 
 
-
+01basicreact:
 The index.html in /Public of 01basicreact is source of Our react App
 and it takes lead from App.js and 
 index.js(used To call react Libraries) lying in /src
+react-scripts automatically Add multiple Scripts in Our source Code which IS essential for Our react app
+
+01vitereact:
+The index.html lying in 01vitereact is our source code, and the /src/main.jsx is already loaded in our index.html as no react-scripts in vite
+
+Vite only like .jsx, and capital first Letter of a function 
+
+
+Working is same for the both Libraries 
+Vite is lil easy to go as react-scripts and Other things are used in Other libray
+
+Exporting of function is Important to Import functions from jsx files
+
+in jsx WE can Only return one element, so we use framgments (<> </>) to return multiple Tags
+
+
+
