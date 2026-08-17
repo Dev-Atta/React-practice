@@ -16,10 +16,10 @@ The index.html in /Public of 01basicreact is source of Our react App
 and it takes lead from App.js and 
 index.js(used To call react Libraries) lying in /src
 react-scripts automatically Add multiple Scripts in Our source Code which IS essential for Our react app
+capital first Letter of a function 
 
 01vitereact:
 The index.html lying in 01vitereact is our source code, and the /src/main.jsx is already loaded in our index.html as no react-scripts in vite
-
 Vite only like .jsx, and capital first Letter of a function 
 
 
@@ -32,3 +32,7 @@ in jsx WE can Only return one element, so we use framgments (<> </>) to return m
 
 
 
+Conventions: Keep The new Jsx and js files names With captital first letters and the function also with captital first letters.
+
+
+User Only see the root elemet from out index.html
