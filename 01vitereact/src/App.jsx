@@ -8,13 +8,18 @@ import Atta from "./atta.jsx"
 
 function App() {
   const [count, setCount] = useState(0)
-
+  let username = "Atta";
 
  // in jsx WE can Only return one element 
   return (
    // <h1>Hello Atta, Vite + React!</h1>
+   <>
    <Atta />
+    <h1>Hello {username}, Vite + React!</h1>
+  
+  </>
   )
 }
+/* This {} is called as JSX, Only used to write conclusions */
 
 export default App

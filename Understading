@@ -1,3 +1,5 @@
+React Dom is Used for Web and React native is used To Creat Mobile apps
+
 Startinh with React
 
 We got two packages vite and Build
@@ -36,3 +38,9 @@ Conventions: Keep The new Jsx and js files names With captital first letters and
 
 
 User Only see the root elemet from out index.html
+
+
+
+React Only Undertand The Jsx, The tree attribute Syntax 
+So Our given function hTML in js is converted into JSX format first 
+
