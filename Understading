@@ -49,3 +49,13 @@ npm create vite@latest
 
 
 In JS, you sync state → UI by hand. In React, setState does it for you, everywhere at once.
+
+
+
+Virtual Dom and Reconcilation Documentaion:
+https://github.com/acdlite/react-fiber-architectures
+
+In actual Dom, there is Whole change Whenever we Need To change Anything
+On the Other HAnd in virtual DOM only the Required Components Chnaged Keeping Everything As it is 
+
+Virtual DOM upgrading algoRithim is react Fibre
