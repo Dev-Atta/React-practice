@@ -51,6 +51,14 @@ npm create vite@latest
 In JS, you sync state → UI by hand. In React, setState does it for you, everywhere at once.
 
 
+Hooks — what they are
+
+Hooks are just functions that let you use React features (state, side effects, context, etc.) inside function components. Before hooks existed, only class components could do things like hold state — function components were "dumb," just plain render functions. Hooks removed that limitation.
+
+Rule: every hook name starts with use
+
+useState, useEffect, useContext, useRef, useMemo, useCallback — all hooks. If you see use..., it's a hook.
+
 
 Virtual Dom and Reconcilation Documentaion:
 https://github.com/acdlite/react-fiber-architectures
@@ -59,3 +67,16 @@ In actual Dom, there is Whole change Whenever we Need To change Anything
 On the Other HAnd in virtual DOM only the Required Components Chnaged Keeping Everything As it is 
 
 Virtual DOM upgrading algoRithim is react Fibre
+
+
+Tailwind Css is Used In react 
+Props make component Reuseable
+
+
+
+We can Make Component that are Used To be Used In our Ui in any other jsx file and then By calling these in our main app.jsx 
+
+This Allow Us repetion of Components and make te code More Structured
+
+In our Component Function we can Add props  For changing of that Componets according to our usecase.
+We can PAss objects, Array from Our Parent Function to it
