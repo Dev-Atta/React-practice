@@ -44,3 +44,8 @@ User Only see the root elemet from out index.html
 React Only Undertand The Jsx, The tree attribute Syntax 
 So Our given function hTML in js is converted into JSX format first 
 
+Making project With vite React, Use this command
+npm create vite@latest
+
+
+In JS, you sync state → UI by hand. In React, setState does it for you, everywhere at once.
