@@ -80,3 +80,11 @@ This Allow Us repetion of Components and make te code More Structured
 
 In our Component Function we can Add props  For changing of that Componets according to our usecase.
 We can PAss objects, Array from Our Parent Function to it
+
+
+In Jsx 
+onClick Expects To be Passes By a Function iNside it 
+like:
+<button onClick={() => setColor("bg-pink-500")}>Pink</button>
+
+()=> is a Callback taking a Function 
