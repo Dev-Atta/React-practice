@@ -88,3 +88,25 @@ like:
 <button onClick={() => setColor("bg-pink-500")}>Pink</button>
 
 ()=> is a Callback taking a Function 
+
+
+useCallback memoizes a function —
+it returns the same function reference across re-renders, instead of creating a brand new function every single render, unless its dependencies change.
+useCallback(() => {
+  // code to run
+}, [dependencies]) // Use callback basically Deals With Cache
+
+
+To run a Fucntion using Usecallback We use useEffect HOOK
+
+useEffect(() => {
+  // code to run
+}, [dependencies + Ftn to run])
+
+
+useRef gives you a mutable container that persists across renders, 
+but changing it does not trigger a re-render. It returns an object shaped like { current: value }.
+
+We can Perform Multiple Opreation of our Use on that CONTAINER MADE by ref
+const myRef = useRef(initialValue)
+// myRef = { current: initialValue }
